@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from transformers import pipeline
 from langchain_community.llms import HuggingFacePipeline
 
 # -----------------------------
