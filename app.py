@@ -2,6 +2,8 @@
 import streamlit as st
 import pandas as pd
 from transformers import pipeline
+from langchain.llms import HuggingFacePipeline
+from transformers import pipeline
 import pickle
 
 # -----------------------------
